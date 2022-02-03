@@ -10,6 +10,7 @@ import {
   useRecoilState,
   useRecoilValue,
 } from 'recoil';
+import SideBar from './components/SideBar';
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
       <div className="app">
           <main className="layout-main-container">
             <section className="layout-page-container">
+            <SideBar />
               <Routes>
                 <Route path="/" element={<Home />}></Route>
               </Routes>

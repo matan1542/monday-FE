@@ -21,6 +21,7 @@ function App() {
             <SideBar />
             <Routes>
               <Route path="/" element={<Home />}></Route>
+              {/* <Route path="/board/:id" element={<Board />}></Route> */}
             </Routes>
           </section>
         </main>

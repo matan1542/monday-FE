@@ -16,7 +16,7 @@ export default function Home() {
     //     setNum(sum)
     // }
     return (
-        <div className="home-container">
+        <div className="app-container">
             {/* <button onClick={clickMe}>Click!</button> */}
             {/* <h2>Hello: {calcNum}</h2> */}
             <h1>Home page</h1>

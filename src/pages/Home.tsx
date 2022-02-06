@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { useRecoilState } from 'recoil'
 import { Link } from "react-router-dom"
+import SideBar from '../components/SideBar'
 
 export default function Home() {
     // const [num, setNum] = useState(0)
@@ -16,11 +17,11 @@ export default function Home() {
     //     setNum(sum)
     // }
     return (
-        <div className="app-container">
-            {/* <button onClick={clickMe}>Click!</button> */}
-            {/* <h2>Hello: {calcNum}</h2> */}
-            <h1>Home page</h1>
-            <Link to={`/board/123`}>Go to board</Link>
-        </div>
+            <div className="app-container">
+                {/* <button onClick={clickMe}>Click!</button> */}
+                {/* <h2>Hello: {calcNum}</h2> */}
+                <h1>Home page</h1>
+                <Link to={`/board/123`}>Go to board</Link>
+            </div>
     )
 }

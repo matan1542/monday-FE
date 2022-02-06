@@ -1,0 +1,23 @@
+.board-container{
+    flex: 1;
+    margin-left:15px;
+}
+.slide-board{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+// @keyframes hide-workspace {
+//     0%{
+//         left: 0;
+//         opacity: 0.3;
+//     }
+   
+//     100%{
+//         left: -100%;
+//         opacity: 0;
+//     }
+// }

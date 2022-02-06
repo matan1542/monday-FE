@@ -11,6 +11,7 @@ import {
   useRecoilValue,
 } from 'recoil';
 import SideBar from './components/SideBar';
+import Workspace from './pages/Workspace';
 function App() {
 
   return (
@@ -18,10 +19,9 @@ function App() {
       <div className="app">
         <main className="layout-main-container">
           <section className="layout-page-container">
-            <SideBar />
             <Routes>
               <Route path="/" element={<Home />}></Route>
-              {/* <Route path="/board/:id" element={<Board />}></Route> */}
+              <Route path="/board/:id" element={<Workspace />}></Route>
             </Routes>
           </section>
         </main>

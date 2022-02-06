@@ -1,0 +1,25 @@
+.workspace-side-bar-container {
+    background-color: #f5f6f8;
+}
+.show-workspace {
+    position: relative;
+    // animation: hide-workspace;
+    // animation-duration: unset;
+    // animation-iteration-count: 1;
+    left: -100%;
+    opacity: 0;
+}
+
+// @keyframes hide-workspace {
+//     0% {
+//             left: 0;
+//             opacity: 0.3;
+//     }
+
+//     100% {
+//         .show-workspace {
+//             left: -100%;
+//             opacity: 0;
+//         }
+//     }
+// }

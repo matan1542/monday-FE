@@ -1,0 +1,2730 @@
+{
+    "_id": "61f8e8e8fb3241001691c184",
+    "cmpsOrder": [
+        "status-picker",
+        "member-picker",
+        "date-picker",
+        "type-picker",
+        "text",
+        "priority-picker",
+        "cost",
+        "role-picker"
+    ],
+    "title": "Webos Hightechs - DON'T touch",
+    "description": "This board is for managing a single project. You can customize this board to suit your project needs: add columns, subtasks, automations, dashboards and more!",
+    "createdBy": {
+        "_id": "61edc3e7652f5891aac4c063",
+        "acronyms": "LS",
+        "fullname": "Lee Segal",
+        "username": "Lee Segal",
+        "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg",
+        "userColor": "#fcc4f7"
+    },
+    "lastSeen": [
+        {
+            "_id": "61edc3e7652f5891aac4c063",
+            "acronyms": "LS",
+            "fullname": "Lee Segal",
+            "username": "Lee Segal",
+            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg",
+            "userColor": "#fcc4f7"
+        },
+        {
+            "_id": "61edc551652f5891aac5830c",
+            "acronyms": "ME",
+            "fullname": "May Elgarat",
+            "username": "May Elgarat",
+            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+            "userColor": "#00c875"
+        },
+        {
+            "_id": "61edc3c5652f5891aac4aed6",
+            "acronyms": "ZR",
+            "fullname": "Zohar Rosenbush",
+            "username": "Zohar Rosenbush",
+            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+            "userColor": "#E2445C"
+        }
+    ],
+    "statuses": [
+        {
+            "id": "la123",
+            "value": "Empty",
+            "bgColor": "#c4c4c4",
+            "color": "#c4c4c4"
+        },
+        {
+            "id": "la555",
+            "value": "Done",
+            "bgColor": "#00C875",
+            "color": "#fff"
+        },
+        {
+            "id": "la666",
+            "value": "Stuck",
+            "bgColor": "#E2445C",
+            "color": "#fff"
+        },
+        {
+            "id": "la777",
+            "value": "Working on it",
+            "bgColor": "#FDAB3D",
+            "color": "#fff"
+        }
+    ],
+    "priorities": [
+        {
+            "id": "lb111",
+            "value": "Empty",
+            "bgColor": "#c4c4c4",
+            "color": "#c4c4c4"
+        },
+        {
+            "id": "lb222",
+            "value": "Low",
+            "bgColor": "#66ccff",
+            "color": "#fff"
+        },
+        {
+            "id": "lb333",
+            "value": "Medium",
+            "bgColor": "#0086c0",
+            "color": "#fff"
+        },
+        {
+            "id": "lb444",
+            "value": "High",
+            "bgColor": "#225091",
+            "color": "#fff"
+        }
+    ],
+    "members": [
+        {
+            "_id": "61edc3e7652f5891aac4c063",
+            "acronyms": "LS",
+            "fullname": "Lee Segal",
+            "username": "Lee Segal",
+            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg",
+            "userColor": "#fcc4f7"
+        },
+        {
+            "_id": "61edc551652f5891aac5830c",
+            "acronyms": "ME",
+            "fullname": "May Elgarat",
+            "username": "May Elgarat",
+            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+            "userColor": "#00c875"
+        },
+        {
+            "_id": "61edc3c5652f5891aac4aed6",
+            "acronyms": "ZR",
+            "fullname": "Zohar Rosenbush",
+            "username": "Zohar Rosenbush",
+            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+            "userColor": "#e2445c"
+        }
+    ],
+    "types": [
+        {
+            "id": "tp111",
+            "value": "Empty",
+            "bgColor": "#c4c4c4",
+            "color": "#c4c4c4"
+        },
+        {
+            "id": "tp222",
+            "value": "Quality",
+            "bgColor": "#fcc4f7",
+            "color": "#fff"
+        },
+        {
+            "id": "tp333",
+            "value": "Feature",
+            "bgColor": "#00c875",
+            "color": "#fff"
+        },
+        {
+            "id": "tp444",
+            "value": "Bug",
+            "bgColor": "#e2445c",
+            "color": "#fff"
+        },
+        {
+            "id": "tp555",
+            "value": "Improvement",
+            "bgColor": "#a25ddc",
+            "color": "#fff"
+        },
+        {
+            "id": "tp666",
+            "value": "Security",
+            "bgColor": "#ffadad",
+            "color": "#fff"
+        }
+    ],
+    "roles": [
+        {
+            "id": "rl111",
+            "value": "Empty",
+            "bgColor": "#c4c4c4",
+            "color": "#c4c4c4"
+        },
+        {
+            "id": "rl222",
+            "value": "Dev",
+            "bgColor": "#279165",
+            "color": "#fff"
+        },
+        {
+            "id": "rl333",
+            "value": "Design",
+            "bgColor": "#0086c0",
+            "color": "#fff"
+        },
+        {
+            "id": "rl444",
+            "value": "Product",
+            "bgColor": "#a25ddc",
+            "color": "#fff"
+        }
+    ],
+    "groups": [
+        {
+            "id": "GJKN10",
+            "title": "  CSS",
+            "tasks": [
+                {
+                    "id": "fdd2",
+                    "title": "Call Asi! ",
+                    "status": "Stuck",
+                    "priority": "Medium",
+                    "cost": "7",
+                    "role": "Product",
+                    "text": "052-558-966",
+                    "type": "Improvement",
+                    "activities": [
+                        {
+                            "txt": "Changed task title to Call Asi! ",
+                            "createdAt": 1644157690942,
+                            "id": "oJAM",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "N90V",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed cost to 7",
+                            "createdAt": 1644151223989,
+                            "id": "kqCb",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "uQGA",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881861,
+                            "id": "0Z9q",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "Nir1",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643705136416,
+                            "id": "TVgI",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "o0go",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Product",
+                            "createdAt": 1643704979261,
+                            "id": "Gcjm",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "G5NG",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Improvement",
+                            "createdAt": 1643704965613,
+                            "id": "Sdgd",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "R1x1",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-02-01T22:00:00.000Z",
+                        "2022-02-03T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc551652f5891aac5830c",
+                            "acronyms": "ME",
+                            "fullname": "May Elgarat",
+                            "username": "May Elgarat",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                            "userColor": "#00c875"
+                        }
+                    ],
+                    "comments": [
+                        {
+                            "createdAt": 1643705794107,
+                            "txt": "Best friends",
+                            "id": "vgMO",
+                            "byMember": {
+                                "_id": "61f6e829a5b81e6fceb111b9",
+                                "username": "Zohar",
+                                "fullname": "Zohar Rosenbush",
+                                "userColor": "#e2445c",
+                                "acronyms": "ZR"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "7wt3",
+                    "title": "Meeting with UI team",
+                    "status": "Working on it",
+                    "text": "",
+                    "priority": "Medium",
+                    "role": "Design",
+                    "type": "Feature",
+                    "cost": "Empty",
+                    "activities": [
+                        {
+                            "txt": "Changed task title to Meeting with UI team",
+                            "createdAt": 1644157691888,
+                            "id": "AM25",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "4Le9",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881877,
+                            "id": "jklF",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "aqL9",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Design",
+                            "createdAt": 1643705037583,
+                            "id": "HFNw",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "0F5Z",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Feature",
+                            "createdAt": 1643705036476,
+                            "id": "eb7U",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "EdL5",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task priority to Medium",
+                            "createdAt": 1643705033096,
+                            "id": "myvI",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "DAxe",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added Zohar Rosenbush as the task member",
+                            "createdAt": 1643705030854,
+                            "id": "Ce9n",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "bGNu",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-31T22:00:00.000Z",
+                        "2022-02-01T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3c5652f5891aac4aed6",
+                            "acronyms": "ZR",
+                            "fullname": "Zohar Rosenbush",
+                            "username": "Zohar Rosenbush",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+                            "userColor": "#e2445c"
+                        }
+                    ],
+                    "comments": []
+                },
+                {
+                    "id": "ypRq",
+                    "title": "Home page",
+                    "status": "Working on it",
+                    "text": "",
+                    "priority": "High",
+                    "role": "Empty",
+                    "type": "Feature",
+                    "cost": "Empty",
+                    "activities": [
+                        {
+                            "txt": "Changed task title to Home page",
+                            "createdAt": 1644232500166,
+                            "id": "5CvB",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "URf6",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Home page",
+                            "createdAt": 1644232437318,
+                            "id": "rlFk",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "203W",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Home page",
+                            "createdAt": 1644230239752,
+                            "id": "KxOv",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "dVYi",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Home page",
+                            "createdAt": 1644230238829,
+                            "id": "44sE",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "ewsW",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Home page",
+                            "createdAt": 1644227177486,
+                            "id": "sx5V",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "icX7",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Home page",
+                            "createdAt": 1644227171525,
+                            "id": "igzX",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "kfSz",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-31T22:00:00.000Z",
+                        "2022-02-01T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc551652f5891aac5830c",
+                            "acronyms": "ME",
+                            "fullname": "May Elgarat",
+                            "username": "May Elgarat",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                            "userColor": "#00c875"
+                        }
+                    ],
+                    "comments": []
+                },
+                {
+                    "id": "tcW5",
+                    "title": "Responsiveness",
+                    "status": "Stuck",
+                    "text": "",
+                    "priority": "High",
+                    "role": "Design",
+                    "type": "Improvement",
+                    "cost": "Empty",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881888,
+                            "id": "hWLB",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "IHWr",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Responsiveness",
+                            "createdAt": 1643718998802,
+                            "id": "2Vtx",
+                            "byMember": {
+                                "_id": "61f78f4455a575a794b252e9",
+                                "username": "segalee",
+                                "fullname": "lee segal",
+                                "userColor": "#fcc4f7",
+                                "acronyms": "LS"
+                            }
+                        },
+                        {
+                            "txt": "Added Lee Segal as the task member",
+                            "createdAt": 1643718976315,
+                            "id": "vu1R",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Added May Elgarat as the task member",
+                            "createdAt": 1643718975197,
+                            "id": "FAHw",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Design",
+                            "createdAt": 1643716331664,
+                            "id": "g3AA",
+                            "byMember": {
+                                "_id": "61f6e829a5b81e6fceb111b9",
+                                "username": "Zohar",
+                                "fullname": "Zohar Rosenbush",
+                                "userColor": "#e2445c",
+                                "acronyms": "ZR"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Improvement",
+                            "createdAt": 1643716329214,
+                            "id": "h0Be",
+                            "byMember": {
+                                "_id": "61f6e829a5b81e6fceb111b9",
+                                "username": "Zohar",
+                                "fullname": "Zohar Rosenbush",
+                                "userColor": "#e2445c",
+                                "acronyms": "ZR"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-31T22:00:00.000Z",
+                        "2022-02-01T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3e7652f5891aac4c063",
+                            "acronyms": "LS",
+                            "fullname": "Lee Segal",
+                            "username": "Lee Segal",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg",
+                            "userColor": "#fcc4f7"
+                        }
+                    ],
+                    "comments": [
+                        {
+                            "createdAt": 1643719017712,
+                            "txt": "https://fonts.google.com/specimen/Roboto",
+                            "id": "6gjn",
+                            "byMember": {
+                                "_id": "61f78f4455a575a794b252e9",
+                                "username": "segalee",
+                                "fullname": "lee segal",
+                                "userColor": "#fcc4f7",
+                                "acronyms": "LS"
+                            }
+                        }
+                    ],
+                    "files": [
+                        {
+                            "byMember": {
+                                "_id": "61f78f4455a575a794b252e9",
+                                "username": "segalee",
+                                "fullname": "lee segal",
+                                "userColor": "#fcc4f7",
+                                "acronyms": "LS"
+                            },
+                            "createdAt": 1643719008580,
+                            "id": "OZXd",
+                            "url": "http://res.cloudinary.com/dwde5tdk3/image/upload/v1643719007/ku5j8m1ovl2acxsa28br.png"
+                        }
+                    ]
+                },
+                {
+                    "id": "zjdw",
+                    "title": "Nav bar ",
+                    "status": "Done",
+                    "text": "",
+                    "priority": "High",
+                    "role": "Design",
+                    "type": "Security",
+                    "cost": "Empty",
+                    "activities": [
+                        {
+                            "txt": "Changed task title to Nav bar ",
+                            "createdAt": 1644151264435,
+                            "id": "DBPG",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881923,
+                            "id": "W23c",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "nYa0",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643706116877,
+                            "id": "Kh4C",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Design",
+                            "createdAt": 1643704983562,
+                            "id": "CslK",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "1VHS",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Security",
+                            "createdAt": 1643704972358,
+                            "id": "7fDY",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "tNNt",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added May Elgarat as the task member",
+                            "createdAt": 1643704958361,
+                            "id": "QFE9",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "tt5j",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-23T22:00:00.000Z",
+                        "2022-01-30T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc551652f5891aac5830c",
+                            "acronyms": "ME",
+                            "fullname": "May Elgarat",
+                            "username": "May Elgarat",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                            "userColor": "#00c875"
+                        }
+                    ],
+                    "comments": []
+                },
+                {
+                    "id": "XTHV",
+                    "title": "Buttons ",
+                    "status": "Working on it",
+                    "text": "",
+                    "priority": "Low",
+                    "role": "Dev",
+                    "type": "Feature",
+                    "cost": "Empty",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881935,
+                            "id": "iD0x",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "MLYF",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643705153138,
+                            "id": "jhuH",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "gIR1",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643705139890,
+                            "id": "tNMP",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "tPbe",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Dev",
+                            "createdAt": 1643704977261,
+                            "id": "A8Bu",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "hnU2",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Feature",
+                            "createdAt": 1643704968009,
+                            "id": "XOkl",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "Ru8Q",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added Zohar Rosenbush as the task member",
+                            "createdAt": 1643704956099,
+                            "id": "zbBp",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "dhGF",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-30T22:00:00.000Z",
+                        "2022-02-01T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3c5652f5891aac4aed6",
+                            "acronyms": "ZR",
+                            "fullname": "Zohar Rosenbush",
+                            "username": "Zohar Rosenbush",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+                            "userColor": "#e2445c"
+                        }
+                    ],
+                    "comments": []
+                },
+                {
+                    "id": "WhJO",
+                    "title": "Sticky modals",
+                    "status": "Done",
+                    "text": "",
+                    "priority": "High",
+                    "role": "Product",
+                    "type": "Quality",
+                    "cost": "Empty",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826882012,
+                            "id": "dm7O",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "9fr3",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643706127145,
+                            "id": "qEur",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Product",
+                            "createdAt": 1643704985245,
+                            "id": "dUnS",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "hEoB",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Quality",
+                            "createdAt": 1643704973498,
+                            "id": "rTRF",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "dfhS",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added May Elgarat as the task member",
+                            "createdAt": 1643704960288,
+                            "id": "F3Rf",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "HBJy",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task priority to High",
+                            "createdAt": 1643704922447,
+                            "id": "ot2G",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "sXVp",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-25T22:00:00.000Z",
+                        "2022-01-29T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc551652f5891aac5830c",
+                            "acronyms": "ME",
+                            "fullname": "May Elgarat",
+                            "username": "May Elgarat",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                            "userColor": "#00c875"
+                        }
+                    ],
+                    "comments": []
+                }
+            ],
+            "style": {
+                "groupColor": "#FFB740"
+            }
+        },
+        {
+            "id": "muO9",
+            "title": " Q&A",
+            "tasks": [
+                {
+                    "id": "oiDv",
+                    "title": "Send the app to Q&A team",
+                    "status": "Done",
+                    "cost": "100000",
+                    "priority": "High",
+                    "text": "DM Dafna",
+                    "role": "Dev",
+                    "type": "Quality",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826882022,
+                            "id": "saDf",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "lnVE",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed cost to 100000",
+                            "createdAt": 1643705425983,
+                            "id": "SlR3",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "lQEM",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643705209980,
+                            "id": "2wVl",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "UeBc",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643705207484,
+                            "id": "1Pi1",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "uRJo",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed text to DM Dafna",
+                            "createdAt": 1643704951002,
+                            "id": "WUS8",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "iMUo",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Send the app to Q&A team",
+                            "createdAt": 1643704937276,
+                            "id": "3FJC",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "zRKL",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-30T22:00:00.000Z",
+                        "2022-02-01T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3c5652f5891aac4aed6",
+                            "acronyms": "ZR",
+                            "fullname": "Zohar Rosenbush",
+                            "username": "Zohar Rosenbush",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+                            "userColor": "#e2445c"
+                        }
+                    ],
+                    "comments": []
+                },
+                {
+                    "id": "KDni",
+                    "title": "Check user services ",
+                    "status": "Stuck",
+                    "text": "",
+                    "priority": "Medium",
+                    "role": "Product",
+                    "type": "Security",
+                    "cost": "460",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826882076,
+                            "id": "2stk",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "neab",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643705200526,
+                            "id": "RfRp",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "f7Mb",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Product",
+                            "createdAt": 1643704378708,
+                            "id": "WVrc",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "B5oq",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Security",
+                            "createdAt": 1643704363191,
+                            "id": "kMIC",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "RnT3",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task priority to Medium",
+                            "createdAt": 1643703983613,
+                            "id": "IRC6",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "6inP",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added May Elgarat as the task member",
+                            "createdAt": 1643703978886,
+                            "id": "Ujji",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "sHeo",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-30T22:00:00.000Z",
+                        "2022-02-03T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc551652f5891aac5830c",
+                            "acronyms": "ME",
+                            "fullname": "May Elgarat",
+                            "username": "May Elgarat",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                            "userColor": "#00c875"
+                        }
+                    ],
+                    "comments": []
+                }
+            ],
+            "style": {
+                "groupColor": "#0073ea"
+            }
+        },
+        {
+            "id": "QtFV",
+            "title": " HR",
+            "tasks": [
+                {
+                    "id": "TmMD",
+                    "title": "Private jet for Yaron",
+                    "status": "Done",
+                    "text": "",
+                    "priority": "High",
+                    "role": "Design",
+                    "type": "Bug",
+                    "cost": "399951",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1644151103688,
+                            "id": "6qvc",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "wTSB",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Private jet for Yaron",
+                            "createdAt": 1643904980901,
+                            "id": "qdvB",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "rjsC",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Private jet for Yaron",
+                            "createdAt": 1643904944134,
+                            "id": "4rxU",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "TC36",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Private jet for Yaron",
+                            "createdAt": 1643904932629,
+                            "id": "Gvmd",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "3DAP",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826894344,
+                            "id": "2FwN",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "S2sB",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881690,
+                            "id": "ftss",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "2MFj",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-02-08T22:00:00.000Z",
+                        "2022-02-10T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3e7652f5891aac4c063",
+                            "acronyms": "LS",
+                            "fullname": "Lee Segal",
+                            "username": "Lee Segal",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg",
+                            "userColor": "#fcc4f7"
+                        }
+                    ],
+                    "comments": [],
+                    "files": [
+                        {
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "Qg8N",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            },
+                            "createdAt": 1643728752894,
+                            "id": "8pNl",
+                            "url": "http://res.cloudinary.com/dwde5tdk3/image/upload/v1643728751/qhocd0g7leghjo8mbps8.png"
+                        },
+                        {
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "h5wH",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            },
+                            "createdAt": 1643728694656,
+                            "id": "3cMZ",
+                            "url": "http://res.cloudinary.com/dwde5tdk3/image/upload/v1643728693/qzwddh6homu5o9utqhbw.png"
+                        },
+                        {
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "Tm1R",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            },
+                            "createdAt": 1643728673546,
+                            "id": "vYcW",
+                            "url": "http://res.cloudinary.com/dwde5tdk3/image/upload/v1643728672/rb0pkevxqisgp1mkqeb1.png"
+                        },
+                        {
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "MlSm",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            },
+                            "createdAt": 1643728637687,
+                            "id": "kb4b",
+                            "url": "http://res.cloudinary.com/dwde5tdk3/image/upload/v1643728636/ff1oxpmo89btt7sifsjm.png"
+                        },
+                        {
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "ORz6",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            },
+                            "createdAt": 1643728630595,
+                            "id": "Luc8",
+                            "url": "http://res.cloudinary.com/dwde5tdk3/image/upload/v1643728629/bggakdetosmdi1nmqsqx.png"
+                        }
+                    ]
+                },
+                {
+                    "id": "9etB",
+                    "title": "Private jet for Assaf",
+                    "status": "Done",
+                    "cost": "5000000",
+                    "priority": "High",
+                    "text": "",
+                    "role": "Dev",
+                    "type": "Quality",
+                    "activities": [
+                        {
+                            "txt": "Added May Elgarat as the task member",
+                            "createdAt": 1644151049189,
+                            "id": "HnyS",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "Rab0",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added Lee Segal as the task member",
+                            "createdAt": 1644151048306,
+                            "id": "xB5l",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "5s23",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881721,
+                            "id": "ibgx",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "1Ny1",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Private jet for Assaf",
+                            "createdAt": 1643824012230,
+                            "id": "G5OC",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "fn0f",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Private jet for Assaf",
+                            "createdAt": 1643823992122,
+                            "id": "QUfI",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "aaKi",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Private jet for Assaf",
+                            "createdAt": 1643823933963,
+                            "id": "jWjB",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "NfoZ",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-31T22:00:00.000Z",
+                        "2022-02-01T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc551652f5891aac5830c",
+                            "acronyms": "ME",
+                            "fullname": "May Elgarat",
+                            "username": "May Elgarat",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                            "userColor": "#00c875"
+                        }
+                    ],
+                    "comments": []
+                },
+                {
+                    "id": "rERr",
+                    "title": "Pacman machine",
+                    "status": "Stuck",
+                    "text": "",
+                    "priority": "Medium",
+                    "role": "Dev",
+                    "type": "Feature",
+                    "cost": "3000",
+                    "activities": [
+                        {
+                            "txt": "Changed task title to Pacman machine",
+                            "createdAt": 1644146405890,
+                            "id": "Vo2b",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "mRI0",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Pacman machine",
+                            "createdAt": 1644146392703,
+                            "id": "rQ7L",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "v8Uv",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881738,
+                            "id": "B9Js",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "v3tL",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Pacman machine",
+                            "createdAt": 1643823931250,
+                            "id": "nsKI",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "Z5V7",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Pacman machine",
+                            "createdAt": 1643823905593,
+                            "id": "anJQ",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "rlKT",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Pacman machine",
+                            "createdAt": 1643823882386,
+                            "id": "MQKn",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "vQCS",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-31T22:00:00.000Z",
+                        "2022-02-02T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc551652f5891aac5830c",
+                            "acronyms": "ME",
+                            "fullname": "May Elgarat",
+                            "username": "May Elgarat",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                            "userColor": "#00c875"
+                        }
+                    ],
+                    "comments": []
+                }
+            ],
+            "style": {
+                "groupColor": "#0061A8"
+            }
+        },
+        {
+            "id": "r2nU",
+            "title": "      Bugs",
+            "tasks": [
+                {
+                    "id": "cdszxvc101",
+                    "title": "Dashboard",
+                    "status": "Working on it",
+                    "priority": "Medium",
+                    "role": "Dev",
+                    "text": "Pai charts",
+                    "cost": "Empty",
+                    "type": "Quality",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881751,
+                            "id": "exSN",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "sjB4",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task status to Working on it",
+                            "createdAt": 1643798910824,
+                            "id": "fUic",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "uIYk",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task status to Working on it",
+                            "createdAt": 1643798909576,
+                            "id": "1EYb",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "FEI2",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task priority to Medium",
+                            "createdAt": 1643718387067,
+                            "id": "tc1c",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed task priority to High",
+                            "createdAt": 1643718385353,
+                            "id": "5wqB",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed task status to Stuck",
+                            "createdAt": 1643718367881,
+                            "id": "aoBc",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-24T22:00:00.000Z",
+                        "2022-01-30T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc551652f5891aac5830c",
+                            "acronyms": "ME",
+                            "fullname": "May Elgarat",
+                            "username": "May Elgarat",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                            "userColor": "#00c875"
+                        }
+                    ],
+                    "comments": [
+                        {
+                            "createdAt": 1644149819701,
+                            "txt": "asasdc",
+                            "id": "FtWv",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "sePw",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "files": [
+                        {
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "0Piv",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            },
+                            "createdAt": 1644149829399,
+                            "id": "PNyI",
+                            "url": "http://res.cloudinary.com/dwde5tdk3/image/upload/v1644149828/rtmkyjlfshoi1pu6xkdd.png"
+                        }
+                    ]
+                }
+            ],
+            "style": {
+                "groupColor": "#F2789F"
+            }
+        },
+        {
+            "id": "gzcdsxsv101",
+            "title": " Features",
+            "tasks": [
+                {
+                    "id": "pq2a",
+                    "title": "User accounts",
+                    "status": "Stuck",
+                    "cost": "Empty",
+                    "priority": "Medium",
+                    "text": "",
+                    "role": "Product",
+                    "type": "Improvement",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881771,
+                            "id": "MHh4",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "ncjC",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Improvement",
+                            "createdAt": 1643798903034,
+                            "id": "l5im",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "Y4Z0",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Product",
+                            "createdAt": 1643798871974,
+                            "id": "ZNDf",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "iNZu",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Bug",
+                            "createdAt": 1643798870066,
+                            "id": "g1M6",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "husu",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643798863203,
+                            "id": "Ni9n",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "Dv1I",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added Lee Segal as the task member",
+                            "createdAt": 1643798851225,
+                            "id": "gDQh",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "6xTa",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-29T22:00:00.000Z",
+                        "2022-02-04T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3e7652f5891aac4c063",
+                            "acronyms": "LS",
+                            "fullname": "Lee Segal",
+                            "username": "Lee Segal",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg",
+                            "userColor": "#fcc4f7"
+                        }
+                    ],
+                    "comments": [
+                        {
+                            "createdAt": 1643735941962,
+                            "txt": "לא לשכוח",
+                            "id": "KMtQ",
+                            "byMember": {
+                                "_id": "61f6e829a5b81e6fceb111b9",
+                                "username": "Zohar",
+                                "fullname": "Zohar Rosenbush",
+                                "userColor": "#e2445c",
+                                "acronyms": "ZR"
+                            }
+                        }
+                    ],
+                    "files": [
+                        {
+                            "byMember": {
+                                "_id": "61f6e829a5b81e6fceb111b9",
+                                "username": "Zohar",
+                                "fullname": "Zohar Rosenbush",
+                                "userColor": "#e2445c",
+                                "acronyms": "ZR"
+                            },
+                            "createdAt": 1643735956644,
+                            "id": "Z3eS",
+                            "url": "http://res.cloudinary.com/dwde5tdk3/image/upload/v1643735956/uq7gi43dgnnztwevbuhf.png"
+                        }
+                    ]
+                },
+                {
+                    "id": "4wXG",
+                    "title": "Tesla for May",
+                    "status": "Done",
+                    "text": "",
+                    "priority": "High",
+                    "role": "Dev",
+                    "type": "Quality",
+                    "cost": "30000",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881779,
+                            "id": "ylpy",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "YSIj",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added Zohar Rosenbush as the task member",
+                            "createdAt": 1643733703197,
+                            "id": "5bsS",
+                            "byMember": {
+                                "_id": "61f6e829a5b81e6fceb111b9",
+                                "username": "Zohar",
+                                "fullname": "Zohar Rosenbush",
+                                "userColor": "#e2445c",
+                                "acronyms": "ZR"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Dev",
+                            "createdAt": 1643710970212,
+                            "id": "H4SZ",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Quality",
+                            "createdAt": 1643710958944,
+                            "id": "HkXr",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed cost to 30000",
+                            "createdAt": 1643710939810,
+                            "id": "ZHsE",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed cost to 50000000",
+                            "createdAt": 1643710924551,
+                            "id": "OdYR",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-31T22:00:00.000Z",
+                        "2022-02-01T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3c5652f5891aac4aed6",
+                            "acronyms": "ZR",
+                            "fullname": "Zohar Rosenbush",
+                            "username": "Zohar Rosenbush",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+                            "userColor": "#e2445c"
+                        }
+                    ],
+                    "comments": []
+                },
+                {
+                    "id": "RoI4",
+                    "title": "Filter",
+                    "status": "Stuck",
+                    "text": "",
+                    "priority": "Low",
+                    "role": "Dev",
+                    "type": "Improvement",
+                    "cost": "Empty",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881789,
+                            "id": "4Zfz",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "L5Vl",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task status to Stuck",
+                            "createdAt": 1643804539718,
+                            "id": "jq9u",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "InMr",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643705192633,
+                            "id": "6yCr",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "jXtN",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Dev",
+                            "createdAt": 1643705057851,
+                            "id": "zlUc",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "csty",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Improvement",
+                            "createdAt": 1643705054313,
+                            "id": "947N",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "pigB",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task priority to Low",
+                            "createdAt": 1643705050982,
+                            "id": "o6AU",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "t36k",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-31T22:00:00.000Z",
+                        "2022-02-03T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3c5652f5891aac4aed6",
+                            "acronyms": "ZR",
+                            "fullname": "Zohar Rosenbush",
+                            "username": "Zohar Rosenbush",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+                            "userColor": "#e2445c"
+                        }
+                    ],
+                    "comments": []
+                },
+                {
+                    "id": "GVKf",
+                    "title": "10Bis for Guy",
+                    "status": "Done",
+                    "text": "",
+                    "priority": "Medium",
+                    "role": "Product",
+                    "type": "Improvement",
+                    "cost": "300000",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881814,
+                            "id": "J97E",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "C993",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to 10Bis for Guy",
+                            "createdAt": 1643798913884,
+                            "id": "WmcO",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "tgx4",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed cost to 300000",
+                            "createdAt": 1643798875049,
+                            "id": "2ALU",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "gueh",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643798857009,
+                            "id": "zb4n",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "H40Z",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added Zohar Rosenbush as the task member",
+                            "createdAt": 1643798852669,
+                            "id": "oZ8A",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "KGZC",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added May Elgarat as the task member",
+                            "createdAt": 1643798836112,
+                            "id": "mKCY",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "tTou",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-02-16T22:00:00.000Z",
+                        "2022-02-24T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3c5652f5891aac4aed6",
+                            "acronyms": "ZR",
+                            "fullname": "Zohar Rosenbush",
+                            "username": "Zohar Rosenbush",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+                            "userColor": "#e2445c"
+                        }
+                    ],
+                    "comments": [
+                        {
+                            "createdAt": 1643718513908,
+                            "txt": "dgdfg",
+                            "id": "hEVu",
+                            "byMember": {
+                                "_id": "61f78f4455a575a794b252e9",
+                                "username": "segalee",
+                                "fullname": "lee segal",
+                                "userColor": "#fcc4f7",
+                                "acronyms": "LS"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "3ezU",
+                    "title": "VR glasses",
+                    "status": "Working on it",
+                    "text": "",
+                    "priority": "High",
+                    "role": "Product",
+                    "type": "Quality",
+                    "cost": "25000",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881825,
+                            "id": "TufT",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "wA5y",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Quality",
+                            "createdAt": 1643798904691,
+                            "id": "t6Fl",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "5D6K",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added Lee Segal as the task member",
+                            "createdAt": 1643798839640,
+                            "id": "2YIH",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "nyXt",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task status to Working on it",
+                            "createdAt": 1643718444721,
+                            "id": "LFXS",
+                            "byMember": {
+                                "_id": "61f78f4455a575a794b252e9",
+                                "username": "segalee",
+                                "fullname": "lee segal",
+                                "userColor": "#fcc4f7",
+                                "acronyms": "LS"
+                            }
+                        },
+                        {
+                            "txt": "Changed task status to Done",
+                            "createdAt": 1643718439918,
+                            "id": "3R6K",
+                            "byMember": {
+                                "_id": "61f78f4455a575a794b252e9",
+                                "username": "segalee",
+                                "fullname": "lee segal",
+                                "userColor": "#fcc4f7",
+                                "acronyms": "LS"
+                            }
+                        },
+                        {
+                            "txt": "Added Lee Segal as the task member",
+                            "createdAt": 1643718430254,
+                            "id": "iD45",
+                            "byMember": {
+                                "_id": "61f78f4455a575a794b252e9",
+                                "username": "segalee",
+                                "fullname": "lee segal",
+                                "userColor": "#fcc4f7",
+                                "acronyms": "LS"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-30T22:00:00.000Z",
+                        "2022-02-02T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3c5652f5891aac4aed6",
+                            "acronyms": "ZR",
+                            "fullname": "Zohar Rosenbush",
+                            "username": "Zohar Rosenbush",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+                            "userColor": "#e2445c"
+                        },
+                        {
+                            "_id": "61edc3e7652f5891aac4c063",
+                            "acronyms": "LS",
+                            "fullname": "Lee Segal",
+                            "username": "Lee Segal",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg",
+                            "userColor": "#fcc4f7"
+                        }
+                    ],
+                    "comments": [
+                        {
+                            "createdAt": 1643705741844,
+                            "txt": "Important!!",
+                            "id": "mAVJ",
+                            "byMember": {
+                                "_id": "61f6e829a5b81e6fceb111b9",
+                                "username": "Zohar",
+                                "fullname": "Zohar Rosenbush",
+                                "userColor": "#e2445c",
+                                "acronyms": "ZR"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "GOZA",
+                    "title": "Tesla for Lee",
+                    "status": "Done",
+                    "text": "",
+                    "priority": "High",
+                    "role": "Product",
+                    "type": "Feature",
+                    "cost": "99922",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881840,
+                            "id": "fCTi",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "qLLP",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed cost to 99922",
+                            "createdAt": 1643806444460,
+                            "id": "7Tgu",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "lyoV",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task status to Done",
+                            "createdAt": 1643804538719,
+                            "id": "XbJJ",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "FCWE",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Product",
+                            "createdAt": 1643804111997,
+                            "id": "sjny",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "x1Mn",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task status to Working on it",
+                            "createdAt": 1643798908246,
+                            "id": "5meV",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "Xklv",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Feature",
+                            "createdAt": 1643798757703,
+                            "id": "Q7on",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "aZ6o",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-31T22:00:00.000Z",
+                        "2022-02-01T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3c5652f5891aac4aed6",
+                            "acronyms": "ZR",
+                            "fullname": "Zohar Rosenbush",
+                            "username": "Zohar Rosenbush",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+                            "userColor": "#e2445c"
+                        }
+                    ],
+                    "comments": []
+                },
+                {
+                    "id": "fLn7",
+                    "title": "Tesla for Zohar",
+                    "status": "Done",
+                    "text": "",
+                    "priority": "High",
+                    "role": "Design",
+                    "type": "Quality",
+                    "cost": "",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1644148483406,
+                            "id": "cPGe",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "Ekwp",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826881853,
+                            "id": "75EA",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "j3SA",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Added May Elgarat as the task member",
+                            "createdAt": 1643733704759,
+                            "id": "EIZk",
+                            "byMember": {
+                                "_id": "61f6e829a5b81e6fceb111b9",
+                                "username": "Zohar",
+                                "fullname": "Zohar Rosenbush",
+                                "userColor": "#e2445c",
+                                "acronyms": "ZR"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Design",
+                            "createdAt": 1643710968993,
+                            "id": "901q",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Quality",
+                            "createdAt": 1643710957795,
+                            "id": "toCY",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed cost to ",
+                            "createdAt": 1643710919433,
+                            "id": "GjnQ",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-02-02T22:00:00.000Z",
+                        "2022-02-09T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc551652f5891aac5830c",
+                            "acronyms": "ME",
+                            "fullname": "May Elgarat",
+                            "username": "May Elgarat",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                            "userColor": "#00c875"
+                        }
+                    ],
+                    "comments": []
+                }
+            ],
+            "style": {
+                "groupColor": "#00C875"
+            }
+        },
+        {
+            "id": "gds21",
+            "title": "Backlog ",
+            "tasks": [
+                {
+                    "id": "csdf101",
+                    "title": "Dark mode",
+                    "status": "Working on it",
+                    "priority": "Low",
+                    "role": "Design",
+                    "text": "change headline",
+                    "cost": "Empty",
+                    "type": "Improvement",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826882091,
+                            "id": "SPZ2",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "RtL1",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task title to Dark mode",
+                            "createdAt": 1643734465608,
+                            "id": "tjPo",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "MnLM",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed text to change headline",
+                            "createdAt": 1643705271398,
+                            "id": "qYrP",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "BKe4",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643705166835,
+                            "id": "Ld7e",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "vcio",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Design",
+                            "createdAt": 1643705010514,
+                            "id": "cTR0",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "z7h0",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Improvement",
+                            "createdAt": 1643705005424,
+                            "id": "X0uq",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "8HCv",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-30T22:00:00.000Z",
+                        "2022-02-03T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc551652f5891aac5830c",
+                            "acronyms": "ME",
+                            "fullname": "May Elgarat",
+                            "username": "May Elgarat",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                            "userColor": "#00c875"
+                        }
+                    ],
+                    "comments": []
+                },
+                {
+                    "id": "TVGm",
+                    "title": "WebSockets",
+                    "status": "Done",
+                    "text": "",
+                    "priority": "High",
+                    "role": "Dev",
+                    "type": "Quality",
+                    "cost": "Empty",
+                    "activities": [
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643826882110,
+                            "id": "v96B",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "3TMB",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed dates",
+                            "createdAt": 1643706143330,
+                            "id": "ysvO",
+                            "byMember": {
+                                "_id": "61f78548f944533ca0d1102b",
+                                "username": "mayelgarat",
+                                "fullname": "May Elgarat",
+                                "userColor": "#25c875",
+                                "acronyms": "ME"
+                            }
+                        },
+                        {
+                            "txt": "Changed task role to Dev",
+                            "createdAt": 1643705012280,
+                            "id": "wb8k",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "zhCS",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task type to Quality",
+                            "createdAt": 1643705007371,
+                            "id": "p9mX",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "ekzi",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task priority to High",
+                            "createdAt": 1643705002820,
+                            "id": "4OaP",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "daYi",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        },
+                        {
+                            "txt": "Changed task status to Done",
+                            "createdAt": 1643704998428,
+                            "id": "No2q",
+                            "byMember": {
+                                "fullname": "Guest",
+                                "acronyms": "G",
+                                "_id": "wcaB",
+                                "username": "guest",
+                                "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg",
+                                "userColor": "transparent"
+                            }
+                        }
+                    ],
+                    "timeline": [
+                        "2022-01-28T22:00:00.000Z",
+                        "2022-01-29T22:00:00.000Z"
+                    ],
+                    "owner": [
+                        {
+                            "_id": "61edc3c5652f5891aac4aed6",
+                            "acronyms": "ZR",
+                            "fullname": "Zohar Rosenbush",
+                            "username": "Zohar Rosenbush",
+                            "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg",
+                            "userColor": "#e2445c"
+                        }
+                    ],
+                    "comments": []
+                }
+            ],
+            "style": {
+                "groupColor": "#E2445C"
+            }
+        }
+    ]
+}

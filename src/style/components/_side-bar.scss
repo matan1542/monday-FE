@@ -24,11 +24,13 @@
                 color: #fff;
             }
         }
-        .logo {
-            height: 40px;
-            width: 40px;
+        a {
             margin-top: 8px;
             margin-bottom: 4px;
+            .logo {
+                height: 40px;
+                width: 40px;
+            }
         }
         span {
             height: 36px;
